@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:auto;
+}
+
+.heroContent{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+
+
+.boxContent{
+    display: flex;
+}
+
+.quoteContent{
+    display: flex;
+}
+
+.ctaContent{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+}
+
+img {
+    max-height: 300px;
+}
+
+
+
+footer, .hero, .heroContent {
+    background-color: #1F2937;
+}
