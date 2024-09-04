@@ -1,22 +1,54 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    margin: auto;
 }
 
 .hero header {
     display: flex;
     justify-content: space-between;
-    margin-bottom:auto;
+    margin-bottom: auto;
+    color: #ffffff;
+    padding-left:500px;
+    padding-right: 500px;
 }
+.links{
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 
 .heroContent{
     display: flex;
-    flex:1;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 50px;
+    gap: 10px;
 }
 
+img {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.heroContent .text {
+    width: 500px;
+    height: 400px;
+}
+
+.heroContent .text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.heroContent .text p , .links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 
 .boxContent{
@@ -35,12 +67,7 @@ body {
     display: flex;
 }
 
-img {
-    max-height: 300px;
-}
 
-
-
-footer, .hero, .heroContent {
+.footer, .hero, .heroContent {
     background-color: #1F2937;
 }
