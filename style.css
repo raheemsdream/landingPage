@@ -12,6 +12,7 @@ body {
     padding-left:500px;
     padding-right: 500px;
 }
+
 .links{
     padding-top: 25px;
 }
@@ -25,7 +26,7 @@ a {
 .heroContent{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 25px;
     gap: 10px;
 }
 
@@ -53,6 +54,26 @@ img {
 
 .boxContent{
     display: flex;
+    max-width:fit-content;
+    gap: 30px;
+    margin:auto;
+}
+
+.boxTitle{
+    margin:auto;
+}
+.outerBoxContent {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:25px;
+}
+
+.box1 ,.box2 ,.box3 ,.box4{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: 200px; 
 }
 
 .quoteContent{
