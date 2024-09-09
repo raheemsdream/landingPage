@@ -101,6 +101,8 @@ img {
 .author {
     align-self: flex-end;
     padding-right: 500px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .ctaContent{
@@ -110,10 +112,18 @@ img {
     margin:auto;
     margin-top: 50px;
     margin-bottom:50px;
+    border-radius: 15px;
+    gap:100px;
+    width:800px;
+    height:50px;
 }
 
 .footer{
     display: flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    padding:50px;
 }
 
 
@@ -126,9 +136,27 @@ button{
     background-color: #3882F6;
     border:0;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
+    width:100px;
+    font-weight:bold;
 }
 
 .ctaButton{
-    border: solid white;
+    border:2px solid white;
+    border-radius:5px;
+    width: 125px;
+    height: 42px;
+    align-self:center;
+    margin:auto;
+}
+
+.ctaText{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    margin:auto;
+}
+
+.ctaText h3, .ctaText p{
+    margin:0;
 }
